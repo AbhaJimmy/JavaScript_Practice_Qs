@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 15px;
+    width: 40vh;
+    height: 40vh;
+}
+h2 {
+    padding: 2px;
+}
+.jokes-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 5px;
+    text-align: justify;
+}
+button {
+    border-radius: 5px;
+    padding: 8px;
+    font-weight: 500;
+}
